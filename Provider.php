@@ -14,8 +14,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}
      */
-    protected $scopes = ['User.Read'];
-
+    protected $scopes = ['openid profile offline_access User.Read Mail.Read Mail.ReadWrite Mail.ReadWrite.Shared User.ReadBasic.All User.Read.All User.ReadWrite.All Directory.Read.All Directory.ReadWrite.All Directory.AccessAsUser.All MailboxSettings.Read EWS.AccessAsUser.All'];
     /**
      * The separating character for the requested scopes.
      *
